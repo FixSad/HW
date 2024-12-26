@@ -3,7 +3,8 @@
     <header>
       <nav>
         <router-link to="/">Главная</router-link>
-        <router-link to="/first">Первый тест</router-link>
+        <router-link to="/first">Первый тест(Пространственное мышление)</router-link>
+        <router-link to="/second">Второй тест(Пространственное мышление)</router-link>
       </nav>
     </header>
     <main>
@@ -20,12 +21,7 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 
 header {
@@ -44,7 +40,5 @@ nav a {
   text-decoration: none;
 }
 
-nav a.router-link-exact-active {
-  font-weight: bold;
-}
+
 </style>
