@@ -4,7 +4,10 @@
       <nav>
         <router-link to="/">Главная</router-link>
         <router-link to="/first">Первый тест(Пространственное мышление)</router-link>
-        <router-link to="/second">Второй тест(Пространственное мышление)</router-link>
+        <router-link to="/second">Второй тест(Внимание)</router-link>
+        <router-link to="/third">Третий тест(Концентрация)</router-link>
+        <router-link to="/fourth">Четвертый тест(Память)</router-link>
+        <router-link to="/fifth">Пятый тест(Память)</router-link>
       </nav>
     </header>
     <main>
