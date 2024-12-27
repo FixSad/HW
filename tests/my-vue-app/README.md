@@ -1,5 +1,29 @@
-# Vue 3 + Vite
+<h1>Тесты</h1>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<div class="test">
+    <p class="test-number">Тест 1)</p>
+    <p>Пространственное мышление (выбрать какая фигура получается, если соединить фигуры)</p>
+</div>
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+<div class="test">
+    <p class="test-number">Тест 2)</p>
+    <p>Внимание (на время определить отличаются ли 2 строки)</p>
+</div>
+
+<div class="test">
+    <p class="test-number">Тест 3)</p>
+    <p>Концентрация (по рисункам выбрать правильный ответ, тоже в каком-то роде на внимательность)</p>
+</div>
+
+<div class="test">
+    <p class="test-number">Тест 4)</p>
+    <p>Память (за 30 секунд запомнить числа и их расположение, по истечению времени поставить их на нужные места)</p>
+</div>
+
+<div class="test">
+    <p class="test-number">Тест 5)</p>
+    <p>Тест Струппа (за максимально короткий промежуток времени необходимо сопоставить написанное слово и его цвет, и выбрать в ответе его цвет)</p>
+</div>
+
+</body>
+</html>
