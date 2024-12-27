@@ -2,12 +2,12 @@
 function checkPalindrome() {
     const inputString = document.getElementById('inputString').value;
 
-    const cleanedString = inputString.replace(/\s+/g, '').toLowerCase(); // удаление пробелов
+    const cleanedString = inputString.replace(/\s+/g, '').toLowerCase(а); // удаление пробелов
     const isPalindrome = cleanedString === cleanedString.split('').reverse().join('');
 
     if (isPalindrome) {
         alert(`"${inputString}" является палиндромом.`);
-    } 
+    }   
     else {
         alert(`"${inputString}" не является палиндромом.`);
     }

@@ -7,7 +7,7 @@
         <router-link to="/second">Второй тест(Внимание)</router-link>
         <router-link to="/third">Третий тест(Концентрация)</router-link>
         <router-link to="/fourth">Четвертый тест(Память)</router-link>
-        <router-link to="/fifth">Пятый тест(Память)</router-link>
+        <router-link to="/fifth">Пятый тест(Тест струппа)</router-link>
       </nav>
     </header>
     <main>
@@ -31,10 +31,14 @@ header {
   background-color: #42b983;
   padding: 20px;
   color: white;
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0; 
 }
 
 nav {
-  margin: 20px 0;
+  margin: 0; 
 }
 
 nav a {
@@ -43,5 +47,6 @@ nav a {
   text-decoration: none;
 }
 
-
+main {
+}
 </style>

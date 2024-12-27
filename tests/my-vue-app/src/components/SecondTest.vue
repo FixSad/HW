@@ -59,7 +59,7 @@
             this.finishTest();
           }
         }, 1000);
-      },
+      }, 
       checkAnswer(isSame) {
         const areEqual = this.currentPair.string1 === this.currentPair.string2;
         if (isSame === areEqual) {

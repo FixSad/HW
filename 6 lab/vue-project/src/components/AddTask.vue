@@ -27,15 +27,14 @@
   };
   </script>
   
-  <style scoped>
+  <style>
   input {
     padding: 10px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #f0f0f0;
-  flex: 1; 
-  font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    font-size: 16px;
   }
 
   input:focus {

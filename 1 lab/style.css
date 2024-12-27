@@ -49,7 +49,6 @@
 /* Таблица */
 
 table {
-    border-collapse: collapse;
     margin: 20px auto;
 }
 th, td {
